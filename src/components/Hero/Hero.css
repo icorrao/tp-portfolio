@@ -1,0 +1,144 @@
+.hero-container {
+  padding-top: 140px;
+  margin: auto;
+  width: 90%;
+}
+.hero-container-arriba {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+}
+
+.hero-container-texto h3 {
+  color: var(--azul);
+  font-size: 1.6rem;
+}
+
+.hero-container-texto h1 {
+  font-size: 4.4rem;
+}
+.hero-container-texto h2 {
+  color: var(--azul);
+  font-size: 2.8rem;
+}
+
+.hero-container-texto p {
+  color: #6d7173;
+  font-size: 1.6rem;
+  padding: 1.25rem 0;
+  width: 51%;
+}
+
+.hero-container-texto .btn-2 {
+  background-color: #fff;
+  border: 0.125rem solid var(--azul);
+  color: var(--azul);
+}
+
+.imagen {
+  background-color: #0078ac;
+  height: 600px;
+  width: 500px;
+}
+
+.hero-tarjetas {
+  display: flex;
+  gap: 3.1rem;
+  justify-content: space-around;
+  margin: 2.5rem auto;
+  width: 90%;
+}
+
+.tarjeta {
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  height: 150px;
+  position: relative;
+  width: 250px;
+}
+
+.tarjeta i {
+  background-color: #0078ac;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 2rem;
+  left: 50%;
+  padding: 0.9rem 1.25rem;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -160%);
+}
+
+.tarjeta-texto {
+  padding-top: 2.5rem;
+}
+
+.tarjeta p {
+  font-size: 1.9rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  html {
+    font-size: 15px;
+  }
+
+  .hero-container-texto p {
+    width: 81%;
+  }
+
+  .hero-tarjetas {
+    width: 100%;
+  }
+
+  .tarjeta-texto {
+    padding-top: 3.4rem;
+  }
+
+  .imagen {
+    height: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-container {
+    padding-top: 120px;
+  }
+  .hero-container-arriba {
+    flex-direction: column-reverse;
+  }
+
+  .hero-container-texto {
+    text-align: center;
+  }
+  .hero-container-texto p {
+    width: 100%;
+  }
+
+  .hero-tarjetas {
+    gap: 0.9rem;
+  }
+
+  .imagen {
+    width: 470px;
+  }
+
+  .hero-tarjetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem;
+    row-gap: 2.3rem;
+  }
+
+  .tarjeta-texto {
+    padding-top: 3.5rem;
+  }
+
+  .tarjeta {
+    width: 100%;
+  }
+}

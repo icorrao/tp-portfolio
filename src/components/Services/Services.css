@@ -1,0 +1,71 @@
+.services {
+  padding: 5.6rem 0;
+  text-align: center;
+}
+
+.subtitulo {
+  color: #0078ac;
+  font-family: "Raleway";
+  font-size: 1.5625rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.titulo {
+  font-family: "Raleway";
+  font-size: 3.75rem;
+  font-weight: 500;
+  margin-bottom: 6.25rem;
+  text-align: center;
+}
+
+.tarjeta-servicio {
+  width: 30%;
+}
+
+.servicios-tarjetas {
+  display: flex;
+  gap: 3.1rem;
+  justify-content: space-around;
+  margin: 2.5rem auto;
+  width: 90%;
+}
+
+.tarjeta-servicio {
+  align-items: center;
+  display: flex;
+  height: 250px;
+  max-width: 350px;
+}
+.tarjeta-servicio > .tarjeta-texto > p {
+  font-weight: 500;
+  padding: 0 1.25rem;
+}
+
+.servicios-tarjetas > .tarjeta > .tarjeta-texto > h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+.services > .servicios-tarjetas > .tarjeta > .tarjeta-texto > p {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.tarjeta-servicio i {
+  border-radius: 10px;
+  font-size: 5.6rem;
+  padding: 0 0.6rem;
+}
+
+@media (max-width: 480px) {
+  .tarjeta-servicio {
+    width: 350px;
+  }
+
+  .servicios-tarjetas {
+    flex-direction: column;
+    align-items: center;
+  }
+}
