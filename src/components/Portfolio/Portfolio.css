@@ -1,0 +1,108 @@
+.portfolio-contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-contenedor {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+}
+.tarjeta-portfolio {
+  width: 400px;
+  background-color: #f9f9f9;
+  border: 0.06rem solid #b0b0b0;
+  border-radius: 2%;
+  border-top: none;
+  text-align: center;
+  box-shadow: -4px 4px 8px 0px rgba(0, 0, 0, 0.29);
+}
+
+.imagen-portfolio {
+  width: 100%;
+  height: 275px;
+
+  background-size: cover;
+  background-position: center;
+}
+
+.tarjeta-portfolio img {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-texto {
+  padding: 0 0.5rem 0.6rem;
+}
+
+.portfolio-texto h3,
+.portfolio-texto p {
+  margin: 1rem 0;
+}
+
+.btn-portfolio {
+  width: 100%;
+  height: 1.9rem;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.elegir-tarjetas {
+  display: flex;
+  gap: 3.1rem;
+  justify-content: space-between;
+  margin: 4rem auto;
+  width: 90%;
+}
+
+.tarjeta-choose {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+  width: 400px;
+}
+
+.tarjeta-choose-texto {
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.tarjeta-choose-texto p {
+  font-size: 1.3rem;
+}
+
+.tarjeta-choose-texto h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.tarjeta-choose i {
+  border-radius: 10px;
+  font-size: 5.6rem;
+  padding: 0 0.6rem;
+}
+
+@media (max-width: 960px) {
+  .portfolio-contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .tarjeta-portfolio {
+    margin-bottom: 2rem;
+  }
+
+  .tarjeta-portfolio:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .elegir-tarjetas {
+    flex-wrap: wrap;
+  }
+}

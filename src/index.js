@@ -19,8 +19,8 @@ root.render(
     <AboutMe />
     <Services />
     <Portfolio />
-    {/*<Testimonials />
+    <Testimonials />
     <Contact />
-    <Footer />/*/}
+    {/*<Footer />/*/}
   </React.StrictMode>
 );

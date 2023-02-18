@@ -1,5 +1,8 @@
 import React from "react";
-
+import "./Portfolio.css";
+import app_billetera from "../../img/app_billetera.jpg";
+import apple_website from "../../img/apple_website.jpg";
+import git_website from "../../img/git_website.jpg";
 const Portfolio = () => {
   return (
     <>
@@ -10,7 +13,7 @@ const Portfolio = () => {
         <div className="portfolio-contenedor">
           <div className="tarjeta-portfolio">
             <div className="imagen-portfolio">
-              <img src="img/App Billetera.jpg" alt="App Billetera" />
+              <img src={app_billetera} alt="App Billetera" />
             </div>
             <div className="portfolio-texto">
               <h3>App Billetera</h3>
@@ -23,10 +26,10 @@ const Portfolio = () => {
           </div>
           <div className="tarjeta-portfolio">
             <div className="imagen-portfolio">
-              <img src="img/Landing Page 1.jpg" alt="App Billetera" />
+              <img src={apple_website} alt="App Billetera" />
             </div>
             <div className="portfolio-texto">
-              <h3>App Billetera</h3>
+              <h3>Apple Website</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Numquam, veritatis!
@@ -36,7 +39,7 @@ const Portfolio = () => {
           </div>
           <div className="tarjeta-portfolio">
             <div className="imagen-portfolio">
-              <img src="img/Navbar.jpg" alt="App Billetera" />
+              <img src={git_website} alt="App Billetera" />
             </div>
             <div className="portfolio-texto">
               <h3>Navbar</h3>
@@ -55,7 +58,7 @@ const Portfolio = () => {
       <div className="portfolio">
         <p className="subtitulo">Why You Should Choose Me</p>
         <h1 className="titulo">Why Choose me</h1>
-        <div className="a-2">
+        <div className="elegir-tarjetas">
           <div className="tarjeta tarjeta-choose">
             <i className="bi bi-people-fill"></i>
             <div className="tarjeta-choose-texto">
@@ -68,7 +71,7 @@ const Portfolio = () => {
           </div>
           <div className="tarjeta tarjeta-choose">
             <i className="bi bi-pen-fill"></i>
-            <div className="tarjeta-texto">
+            <div className="tarjeta-choose-texto">
               <h3>Creative Design</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
@@ -78,7 +81,7 @@ const Portfolio = () => {
           </div>
           <div className="tarjeta tarjeta-choose">
             <i className="bi bi-rocket-takeoff-fill"></i>
-            <div className="tarjeta-texto">
+            <div className="tarjeta-choose-texto">
               <h3>Responsive</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
