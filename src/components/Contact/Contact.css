@@ -1,0 +1,41 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  background-color: #f9f9f9;
+  border: none;
+  height: 4rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  padding: 0.3rem;
+}
+
+::placeholder {
+  padding: 0.8rem;
+}
+
+textarea {
+  height: auto;
+}
+
+form .btn {
+  width: min-content;
+  margin: auto;
+  margin-bottom: 3.1rem;
+}
+
+@media (max-width: 960px) {
+  form {
+    width: 90%;
+  }
+
+  form .btn {
+    width: 50%;
+  }
+}

@@ -2,6 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import "swiper/swiper-bundle.min.css";
+import "./Testimonials.css";
 
 const Testimonials = () => {
   return (
@@ -9,10 +10,17 @@ const Testimonials = () => {
       modules={[Navigation, Pagination]}
       navigation
       pagination={{ clickable: true }}
-      spaceBetween={50}
       slidesPerView={3}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
+      breakpoints={{
+        // when window width is >= 640px
+        1: {
+          slidesPerView: 1,
+        },
+        // when window width is >= 768px
+        960: {
+          slidesPerView: 3,
+        },
+      }}
     >
       <SwiperSlide>
         <div class="testimonials">

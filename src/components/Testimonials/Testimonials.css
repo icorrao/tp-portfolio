@@ -1,0 +1,139 @@
+.testimonial {
+  width: 400px;
+  height: 350px;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0 0 2.5rem 0;
+}
+
+.testimonial h3 {
+  text-align: center;
+  font-size: 1.9rem;
+  padding: 1.25rem 0 0 0;
+}
+
+.estrellas {
+  text-align: center;
+  padding: 1.25rem 0;
+}
+
+.estrellas i {
+  position: relative;
+  background-color: #f9f9f9;
+  color: rgb(227, 227, 0);
+  border-radius: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 1rem;
+}
+.comillas {
+  position: absolute;
+  right: 100px;
+  top: 175px;
+}
+.comillas i {
+  background-color: #f9f9f9;
+  color: #a1a8ab;
+  border-radius: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 6rem;
+}
+
+.foto {
+  position: absolute;
+  top: -80px;
+  left: 125px;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-color: #0078ac;
+}
+
+/* .swiper {
+  height: 500px;
+  width: 90%;
+  gap: 3.1rem;
+}
+
+.swiper-wrapper {
+  gap: 5.1rem;
+} */
+
+.swiper {
+  height: 600px;
+  align-items: center;
+}
+.testimonial {
+  top: 110px;
+}
+.swiper-container {
+  position: relative;
+  width: 90vw;
+}
+.swiper-container > .swiper-slide__content {
+  position: absolute;
+  top: 0;
+}
+
+.swiper-slide {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 200ms linear;
+  transform: scale(0.8);
+}
+.swiper-slide__content {
+  height: 300px;
+}
+
+@media (max-width: 960px) {
+  .testimonial {
+    width: 257px;
+  }
+  .testimonial p {
+    font-size: 12px;
+  }
+
+  .foto {
+    position: absolute;
+    top: -20%;
+    left: 25%;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: #0078ac;
+  }
+
+  .comillas {
+    right: 33%;
+    top: 45%;
+  }
+  .comillas i {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial {
+    width: 400px;
+  }
+  .foto {
+    left: 33%;
+  }
+  .comillas {
+    right: 22%;
+  }
+  .testimonial p {
+    font-size: 20px;
+  }
+}

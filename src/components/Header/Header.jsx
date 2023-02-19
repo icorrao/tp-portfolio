@@ -52,7 +52,7 @@ const Header = () => {
           <a href="#portfolio" className="link">
             Portfolio
           </a>
-          <a href="contacto">
+          <a href="#contacto">
             <button className="btn">Contact Me</button>
           </a>
         </nav>

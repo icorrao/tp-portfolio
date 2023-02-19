@@ -1,3 +1,4 @@
+import "./Contact.css";
 // Make sure to run npm install @formspree/react
 // For more help visit https://formspr.ee/react-help
 import React from "react";
@@ -8,7 +9,7 @@ function Contact() {
     return <p className="tarjeta-p">Mensaje enviado!</p>;
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} id="contacto">
       <label htmlFor="name">Ingrese su nombre</label>
       <input id="name" type="text" name="name" />
       <label htmlFor="email">Ingrese su email</label>

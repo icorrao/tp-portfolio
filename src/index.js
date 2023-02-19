@@ -21,6 +21,6 @@ root.render(
     <Portfolio />
     <Testimonials />
     <Contact />
-    {/*<Footer />/*/}
+    <Footer />
   </React.StrictMode>
 );
