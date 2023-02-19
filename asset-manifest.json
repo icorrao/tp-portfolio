@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/tp-portfolio/static/css/main.79713820.css",
-    "main.js": "/tp-portfolio/static/js/main.1ea07d6f.js",
+    "main.css": "/tp-portfolio/static/css/main.0ce78354.css",
+    "main.js": "/tp-portfolio/static/js/main.336e7c9d.js",
     "static/media/app_billetera.jpg": "/tp-portfolio/static/media/app_billetera.5a719f1114ff98a408cb.jpg",
     "static/media/git_website.jpg": "/tp-portfolio/static/media/git_website.c322095ef3047d446906.jpg",
     "static/media/bootstrap-icons.woff?": "/tp-portfolio/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/bootstrap-icons.woff2?": "/tp-portfolio/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "static/media/apple_website.jpg": "/tp-portfolio/static/media/apple_website.de38d6ecd87d4297ade4.jpg",
     "index.html": "/tp-portfolio/index.html",
-    "main.79713820.css.map": "/tp-portfolio/static/css/main.79713820.css.map",
-    "main.1ea07d6f.js.map": "/tp-portfolio/static/js/main.1ea07d6f.js.map"
+    "main.0ce78354.css.map": "/tp-portfolio/static/css/main.0ce78354.css.map",
+    "main.336e7c9d.js.map": "/tp-portfolio/static/js/main.336e7c9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.79713820.css",
-    "static/js/main.1ea07d6f.js"
+    "static/css/main.0ce78354.css",
+    "static/js/main.336e7c9d.js"
   ]
 }
