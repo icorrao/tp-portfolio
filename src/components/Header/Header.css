@@ -127,15 +127,18 @@
   .activo {
     display: flex;
     flex-direction: column;
-
+    top: 115px;
     justify-content: center;
     padding: 0.7rem 0;
     height: 225px;
-    transition: height 1s;
   }
 }
 
 @media (max-width: 960px) {
+  .about-me {
+    padding: 3rem 0;
+  }
+
   .header-container {
     align-items: center;
     display: flex;

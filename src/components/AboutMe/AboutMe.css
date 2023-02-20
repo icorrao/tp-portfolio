@@ -29,13 +29,13 @@
 }
 
 .about-me-text h2 {
-  color: #6d7173;
+  color: var(--gris);
   font-size: 2.5rem;
   font-weight: 500;
 }
 
 .about-me-text p {
-  color: grey;
+  color: var(--gris);
   font-size: 1.625rem;
   line-height: 2.5rem;
 }
@@ -52,21 +52,22 @@
     width: 90%;
     margin: auto;
   }
+
   .imagen-sobre-mi {
     display: none;
   }
 
   h1 {
-    font-size: 55px;
+    font-size: 3.4rem;
   }
 
   .about-me-text h2 {
-    font-size: 30px;
+    font-size: 1.8rem;
     margin: 20px 0;
   }
 
   p {
-    font-size: 21px;
+    font-size: 1.3rem;
     line-height: 26px;
   }
 }

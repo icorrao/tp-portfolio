@@ -1,3 +1,11 @@
+#dibujo-1 {
+  z-index: -1;
+  height: 400px;
+  position: absolute;
+  right: 0;
+  top: 220%;
+}
+
 .services {
   padding: 5.6rem 0;
   text-align: center;
@@ -7,7 +15,7 @@
   width: 30%;
 }
 
-.servicios-tarjetas {
+.servicios-tarjetas-contenedor {
   display: flex;
   gap: 3.1rem;
   justify-content: space-between;
@@ -21,18 +29,19 @@
   height: 250px;
   max-width: 350px;
 }
-.tarjeta-servicio > .tarjeta-texto > p {
+
+.tarjeta-texto p {
   font-weight: 500;
   padding: 0 1.25rem;
 }
 
-.servicios-tarjetas > .tarjeta > .tarjeta-texto > h3 {
+.tarjeta-texto h3 {
   font-family: "Raleway", sans-serif;
   font-size: 1.7rem;
   font-weight: 600;
   margin-bottom: 0.6rem;
 }
-.services > .servicios-tarjetas > .tarjeta > .tarjeta-texto > p {
+.tarjeta-texto p {
   font-size: 1.25rem;
   font-weight: 500;
 }
@@ -58,7 +67,7 @@
     padding-top: 3rem;
   }
 
-  .servicios-tarjetas {
+  .servicios-tarjetas-contenedor {
     flex-direction: column;
     align-items: center;
   }

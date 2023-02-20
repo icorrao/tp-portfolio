@@ -15,6 +15,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <h1>Portfolio</h1>
+
         {/* Botones del nav */}
         <nav className="nav-derecha">
           <a href="#home" className="link">
@@ -33,13 +34,15 @@ const Header = () => {
             <button className="btn">Contactar</button>
           </a>
         </nav>
+
         {/* Menu hamburguesa del nav */}
         <i
           className="bi bi-list hamburguesa"
           id="hamburguesa"
           onClick={mostrarMenu}
         ></i>
-        {/* Menu nav para responsive */}
+
+        {/* Menu nav visible en responsive */}
         <nav className="nav-derecha nav-responsive" id="nav-responsive">
           <a href="#home" className="link">
             Home

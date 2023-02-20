@@ -1,3 +1,11 @@
+#dibujo-2 {
+  z-index: -1;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  top: 365%;
+}
+
 .portfolio-contenedor {
   display: flex;
   justify-content: space-around;

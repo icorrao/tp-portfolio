@@ -14,10 +14,13 @@ const Footer = () => {
           <h2>Información para clientes</h2>
           <p>Encontrá ayuda para tus proyectos</p>
         </div>
+
         <div className="footer-top-2">
           <h2>Conseguir Ofertas y Novedades</h2>
           <p>Subscríbase al newsletter</p>
         </div>
+
+        {/* Formulario para newsletter */}
         <form
           className="footer-form"
           onSubmit={handleSubmit}
@@ -29,11 +32,13 @@ const Footer = () => {
           </button>
         </form>
       </div>
+
       <div className="footer-mid">
         <div className="column">
           <h2 id="footer-nombre">IGNACIO CORRAO</h2>
           <p>Diseñador Front End</p>
         </div>
+
         <div className="column">
           <h3>SERVICIOS</h3>
           <p>
@@ -48,10 +53,12 @@ const Footer = () => {
             <a href="#dashboard-design">Diseño de Dashboards</a>
           </p>
         </div>
+
         <div className="column">
           <h3>SOBRE MI</h3>
           <a href="#about-me">Sección Sobre Mi</a>
         </div>
+
         <div className="column">
           <h3>CONTACTO</h3>
           <p>
@@ -64,6 +71,7 @@ const Footer = () => {
             <i className="bi bi-skype"></i> XXXXXXXX
           </p>
         </div>
+
         <div className="column">
           <h3>REDES SOCIALES</h3>
           <span className="social">
@@ -82,6 +90,7 @@ const Footer = () => {
           </span>
         </div>
       </div>
+
       <span className="footer-bottom">
         Copyright 2023 Inc. All rights reserved. |{" "}
         <a href="#">Condiciones de Uso</a> | <a href="#">Privacidad</a> |{" "}

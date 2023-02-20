@@ -11,6 +11,7 @@ const Hero = () => {
           <h1>Ignacio Corrao</h1>
           <h2>UI/UX Designer</h2>
           <p>Estudiante de diseño fron end con 6 meses de experiencia.</p>
+
           <div className="hero-botones-contenedor">
             <a href="#contacto">
               <button className="btn">Contacto</button>
@@ -23,6 +24,7 @@ const Hero = () => {
         <div className="imagen"></div>
       </div>
 
+      {/* Tarjetas de la seccion hero */}
       <div className="hero-tarjetas">
         <div className="tarjeta">
           <i className="bi bi-award"></i>

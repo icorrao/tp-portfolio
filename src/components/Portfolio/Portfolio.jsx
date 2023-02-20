@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import app_billetera from "../../img/app_billetera.jpg";
 import apple_website from "../../img/apple_website.jpg";
 import git_website from "../../img/git_website.jpg";
+import dibujo_fondo_izq from "../../img/dibujo_fondo-izq.jpg";
 const Portfolio = () => {
   return (
     <section className="portfolio">
@@ -108,6 +109,7 @@ const Portfolio = () => {
         <p className="subtitulo">Testimonios de Clientes</p>
         <h1 className="titulo">Testimonios</h1>
       </div>
+      <img src={dibujo_fondo_izq} alt="dibujo_fondo-izq" id="dibujo-2" />
     </section>
   );
 };

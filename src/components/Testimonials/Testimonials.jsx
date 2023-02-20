@@ -12,11 +12,9 @@ const Testimonials = () => {
       pagination={{ clickable: true }}
       slidesPerView={3}
       breakpoints={{
-        // when window width is >= 640px
         1: {
           slidesPerView: 1,
         },
-        // when window width is >= 768px
         960: {
           slidesPerView: 3,
         },
@@ -31,7 +29,7 @@ const Testimonials = () => {
                 <i class="bi bi-quote comillas"></i>
               </div>
               <div class="tarjeta-texto">
-                <h3>Stefhan Gill</h3>
+                <h3>Lorem Ipsum</h3>
                 <div class="estrellas">
                   <i class="bi bi-star-fill estrella"></i>
                   <i class="bi bi-star-fill estrella"></i>
@@ -57,7 +55,7 @@ const Testimonials = () => {
                 <i class="bi bi-quote comillas"></i>
               </div>
               <div class="tarjeta-texto">
-                <h3>Stefhan Gill</h3>
+                <h3>Lorem Ipsum</h3>
                 <div class="estrellas">
                   <i class="bi bi-star-fill estrella"></i>
                   <i class="bi bi-star-fill estrella"></i>
@@ -83,7 +81,7 @@ const Testimonials = () => {
                 <i class="bi bi-quote comillas"></i>
               </div>
               <div class="tarjeta-texto">
-                <h3>Stefhan Gill</h3>
+                <h3>Lorem Ipsum</h3>
                 <div class="estrellas">
                   <i class="bi bi-star-fill estrella"></i>
                   <i class="bi bi-star-fill estrella"></i>
@@ -109,7 +107,7 @@ const Testimonials = () => {
                 <i class="bi bi-quote comillas"></i>
               </div>
               <div class="tarjeta-texto">
-                <h3>Stefhan Gill</h3>
+                <h3>Lorem Ipsum</h3>
                 <div class="estrellas">
                   <i class="bi bi-star-fill estrella"></i>
                   <i class="bi bi-star-fill estrella"></i>
@@ -136,7 +134,7 @@ const Testimonials = () => {
                 <i class="bi bi-quote comillas"></i>
               </div>
               <div class="tarjeta-texto">
-                <h3>Stefhan Gill</h3>
+                <h3>Lorem Ipsum</h3>
                 <div class="estrellas">
                   <i class="bi bi-star-fill estrella"></i>
                   <i class="bi bi-star-fill estrella"></i>

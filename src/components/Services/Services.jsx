@@ -1,4 +1,5 @@
 import React from "react";
+import dibujo_fondo_der from "../../img/dibujo_fondo-der.jpg";
 import "./Services.css";
 
 const Services = () => {
@@ -7,7 +8,7 @@ const Services = () => {
       <p class="subtitulo">Servicios que proveo</p>
       <h1 class="titulo">Mis Servicios</h1>
 
-      <div class="servicios-tarjetas">
+      <div class="servicios-tarjetas-contenedor">
         <div class="tarjeta tarjeta-servicio" id="web-design">
           <i class="bi bi-window-fullscreen"></i>
           <div class="tarjeta-texto tarjeta-texto-servicios">
@@ -39,6 +40,7 @@ const Services = () => {
           </div>
         </div>
       </div>
+      <img src={dibujo_fondo_der} alt="dibujo_fondo_der" id="dibujo-1" />
     </section>
   );
 };
