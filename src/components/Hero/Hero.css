@@ -38,16 +38,23 @@
 }
 
 .imagen {
-  background-color: #0078ac;
-  height: 600px;
+  background: url(../../img/foto_perfil.jpg);
+  background-size: cover;
+  height: 540px;
   width: 500px;
+  border-radius: 10px;
+}
+
+.hero-botones-contenedor {
+  display: flex;
+  gap: 1rem;
 }
 
 .hero-tarjetas {
   display: flex;
   gap: 3.1rem;
   justify-content: space-around;
-  margin: 2.5rem auto;
+  margin: 5.5rem auto;
   width: 90%;
 }
 
@@ -117,6 +124,10 @@
   }
   .hero-container-texto p {
     width: 100%;
+  }
+
+  .hero-botones-contenedor {
+    justify-content: center;
   }
 
   .hero-tarjetas {

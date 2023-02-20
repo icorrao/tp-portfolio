@@ -10,8 +10,13 @@
   width: 80%;
 }
 
-.about-me-container .imagen {
-  height: 500px;
+.imagen-sobre-mi {
+  background: url(../../img/foto_sobre_mi.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+  width: 500px;
+  border-radius: 10px;
 }
 
 .about-me-text {
@@ -47,7 +52,7 @@
     width: 90%;
     margin: auto;
   }
-  .about-me-container .imagen {
+  .imagen-sobre-mi {
     display: none;
   }
 

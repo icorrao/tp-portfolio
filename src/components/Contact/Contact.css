@@ -13,11 +13,16 @@ textarea {
   height: 4rem;
   margin-bottom: 1rem;
   font-size: 1.4rem;
-  padding: 0.3rem;
+  padding: 0.8rem;
 }
 
 ::placeholder {
   padding: 0.8rem;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: transparent;
 }
 
 textarea {

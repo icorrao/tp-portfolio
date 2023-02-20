@@ -43,9 +43,19 @@
   padding: 0 0.6rem;
 }
 
+@media (max-width: 960px) {
+  .tarjeta-texto-servicios {
+    padding-top: 6.9rem;
+  }
+}
+
 @media (max-width: 480px) {
   .tarjeta-servicio {
     width: 350px;
+  }
+
+  .tarjeta-texto-servicios {
+    padding-top: 3rem;
   }
 
   .servicios-tarjetas {

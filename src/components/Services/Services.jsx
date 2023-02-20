@@ -3,34 +3,43 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div class="services" id="services">
-      <p class="subtitulo">Services I provide</p>
-      <h1 class="titulo">My Services</h1>
+    <section class="services" id="services">
+      <p class="subtitulo">Servicios que proveo</p>
+      <h1 class="titulo">Mis Servicios</h1>
 
       <div class="servicios-tarjetas">
-        <div class="tarjeta tarjeta-servicio">
+        <div class="tarjeta tarjeta-servicio" id="web-design">
           <i class="bi bi-window-fullscreen"></i>
-          <div class="tarjeta-texto">
-            <h3>Website Design</h3>
-            <p>I create website design as per the need of my clients.</p>
+          <div class="tarjeta-texto tarjeta-texto-servicios">
+            <h3>Diseño Web</h3>
+            <p>
+              Puedo crear páginas web que se ajusten a las necesidades de los
+              clientes.
+            </p>
           </div>
         </div>
-        <div class="tarjeta tarjeta-servicio">
+        <div class="tarjeta tarjeta-servicio" id="app-design">
           <i class="bi bi-phone-vibrate"></i>
-          <div class="tarjeta-texto">
-            <h3>Application Design</h3>
-            <p>I create application design as per the need of my clients.</p>
+          <div class="tarjeta-texto tarjeta-texto-servicios">
+            <h3>Diseño de Aplicaciones</h3>
+            <p>
+              Puedo crear diseños de aplicaciones que se ajusten a las
+              necesidades de los clientes.
+            </p>
           </div>
         </div>
-        <div class="tarjeta tarjeta-servicio">
+        <div class="tarjeta tarjeta-servicio" id="dashboard-design">
           <i class="bi bi-clipboard2-data"></i>
-          <div class="tarjeta-texto">
-            <h3>Dashboard Design</h3>
-            <p>I create dashboard design as per the need of my clients.</p>
+          <div class="tarjeta-texto tarjeta-texto-servicios">
+            <h3>Diseño de Dashboards</h3>
+            <p>
+              Puedo crear diseños de dashboards que se ajusten a las necesidades
+              de los clientes.
+            </p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

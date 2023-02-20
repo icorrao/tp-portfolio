@@ -58,18 +58,8 @@
   background-color: #0078ac;
 }
 
-/* .swiper {
-  height: 500px;
-  width: 90%;
-  gap: 3.1rem;
-}
-
-.swiper-wrapper {
-  gap: 5.1rem;
-} */
-
 .swiper {
-  height: 600px;
+  height: 475px;
   align-items: center;
 }
 .testimonial {

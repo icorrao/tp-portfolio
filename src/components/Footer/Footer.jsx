@@ -1,70 +1,91 @@
 import React from "react";
 import "./Footer.css";
-
+import { useForm } from "@formspree/react";
 const Footer = () => {
+  const [state, handleSubmit] = useForm("xnqyddql");
+  let formularioFooter = document.getElementById("formulario-footer");
+  if (state.succeeded) {
+    formularioFooter.innerHTML = "<p>Gracias por unirte!</p>";
+  }
   return (
     <footer>
       <div className="footer-top">
-        <div className="">
-          <h2>Customer Support</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div className="footer-top-1">
+          <h2>Información para clientes</h2>
+          <p>Encontrá ayuda para tus proyectos</p>
         </div>
-        <div className="">
-          <h2>Get Deals & Reveals</h2>
-          <p>Lorem ipsum, dolor sit amet.</p>
+        <div className="footer-top-2">
+          <h2>Conseguir Ofertas y Novedades</h2>
+          <p>Subscríbase al newsletter</p>
         </div>
-        <div className="footer-form">
-          <input
-            type="text"
-            name="email"
-            id="email"
-            placeholder="Enter Email"
-          />
-          <button className="btn">Join</button>
-        </div>
+        <form
+          className="footer-form"
+          onSubmit={handleSubmit}
+          id="formulario-footer"
+        >
+          <input type="text" name="email" id="email" placeholder="Email" />
+          <button type="submit" disabled={state.submitting} className="btn">
+            Unirse
+          </button>
+        </form>
       </div>
       <div className="footer-mid">
         <div className="column">
-          <h2>HASSAN ALI</h2>
-          <p>UI/UX Designer</p>
+          <h2 id="footer-nombre">IGNACIO CORRAO</h2>
+          <p>Diseñador Front End</p>
         </div>
         <div className="column">
-          <h3>SERVICES</h3>
-          <p>Web Design</p>
-          <p>App Design</p>
-          <p>Dashboard Design</p>
+          <h3>SERVICIOS</h3>
+          <p>
+            {" "}
+            <a href="#web-design">Diseño Web</a>
+          </p>
+          <p>
+            {" "}
+            <a href="#app-design">Diseño de Apps</a>
+          </p>
+          <p>
+            <a href="#dashboard-design">Diseño de Dashboards</a>
+          </p>
         </div>
         <div className="column">
-          <h3>ABOUT</h3>
-          <p>Blog</p>
-          <p>Mission</p>
-          <p>My Story</p>
+          <h3>SOBRE MI</h3>
+          <a href="#about-me">Sección Sobre Mi</a>
         </div>
         <div className="column">
-          <h3>CONTACT</h3>
+          <h3>CONTACTO</h3>
           <p>
             <i className="bi bi-telephone-fill"></i> +92 XXXXXXXXXX
           </p>
           <p>
-            <i className="bi bi-envelope"></i> hassanali.uiux@gmail.com
+            <i className="bi bi-envelope"></i> XXXXXXXX@gmail.com
           </p>
           <p>
             <i className="bi bi-skype"></i> XXXXXXXX
           </p>
         </div>
         <div className="column">
-          <h3>SOCIAL MEDIA</h3>
-          <p>
-            <i className="bi bi-facebook"></i>
-            <i className="bi bi-twitter"></i>
-            <i className="bi bi-youtube"></i>
-            <i className="bi bi-instagram"></i>
-          </p>
+          <h3>REDES SOCIALES</h3>
+          <span className="social">
+            <a href="#">
+              <i className="bi bi-facebook"></i>
+            </a>
+            <a href="#">
+              <i className="bi bi-twitter"></i>
+            </a>
+            <a href="#">
+              <i className="bi bi-youtube"></i>
+            </a>
+            <a href="#">
+              <i className="bi bi-instagram"></i>
+            </a>
+          </span>
         </div>
       </div>
       <span className="footer-bottom">
-        Copyright 2023 Inc. All rights reserved. | Terms of Use | Updated
-        Privacy Policy | Accessibility
+        Copyright 2023 Inc. All rights reserved. |{" "}
+        <a href="#">Condiciones de Uso</a> | <a href="#">Privacidad</a> |{" "}
+        <a href="#">Accessibilidad</a>
       </span>
     </footer>
   );

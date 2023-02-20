@@ -3,21 +3,22 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <div className="about-me">
+    <section className="about-me" id="about-me">
       <div className="about-me-container">
-        <div className="imagen"></div>
+        {/* Imagen */}
+        <div className="imagen-sobre-mi"></div>
+        {/* Texto */}
         <div className="about-me-text">
-          <h1 id="about-me">About Me</h1>
-          <h2>02 Years Experience in UI/UX Design</h2>
+          <h1>Sobre Mi</h1>
+          <h2>Diseñador Front End</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quae
-            hic quibusdam enim culpa. Perferendis, sapiente error! Perspiciatis
-            qui aperiam delectus ipsa! Dolores exercitationem reiciendis eum
-            facilis rem ducimus iure!
+            Con 5 años de experiencia en diseño grafico, decidí estudiar
+            desarrollo web para profundizar mis conocimientos en un mercado en
+            evolución constante.
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

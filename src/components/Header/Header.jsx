@@ -12,33 +12,34 @@ const Header = () => {
     boton.classList.add("bi-list");
   };
   return (
-    <header className="header" id="home">
+    <header className="header">
       <div className="header-container">
         <h1>Portfolio</h1>
+        {/* Botones del nav */}
         <nav className="nav-derecha">
           <a href="#home" className="link">
-            Home
+            Inicio
           </a>
           <a href="#about-me" className="link">
-            About
+            Sobre Mi
           </a>
           <a href="#services" className="link">
-            Services
+            Servicios
           </a>
           <a href="#portfolio" className="link">
             Portfolio
           </a>
           <a href="#contacto">
-            <button className="btn">Contact Me</button>
+            <button className="btn">Contactar</button>
           </a>
         </nav>
-
+        {/* Menu hamburguesa del nav */}
         <i
           className="bi bi-list hamburguesa"
           id="hamburguesa"
           onClick={mostrarMenu}
         ></i>
-
+        {/* Menu nav para responsive */}
         <nav className="nav-derecha nav-responsive" id="nav-responsive">
           <a href="#home" className="link">
             Home

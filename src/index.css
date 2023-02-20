@@ -8,6 +8,10 @@
   color: var(--negro);
 }
 
+.section {
+  padding: 5rem;
+}
+
 :root {
   --negro: #061820;
   --gris: #6d7173;
