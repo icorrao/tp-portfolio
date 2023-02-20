@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tp-portfolio/static/css/main.291e9858.css",
-    "main.js": "/tp-portfolio/static/js/main.6e8e7858.js",
+    "main.css": "/tp-portfolio/static/css/main.07a95df5.css",
+    "main.js": "/tp-portfolio/static/js/main.538fa7f7.js",
     "static/media/foto_sobre_mi.jpg": "/tp-portfolio/static/media/foto_sobre_mi.9b3b9416c0855b70a52b.jpg",
     "static/media/app_billetera.jpg": "/tp-portfolio/static/media/app_billetera.5a719f1114ff98a408cb.jpg",
     "static/media/git_website.jpg": "/tp-portfolio/static/media/git_website.c322095ef3047d446906.jpg",
@@ -9,12 +9,14 @@
     "static/media/bootstrap-icons.woff2?": "/tp-portfolio/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "static/media/apple_website.jpg": "/tp-portfolio/static/media/apple_website.de38d6ecd87d4297ade4.jpg",
     "static/media/foto_perfil.jpg": "/tp-portfolio/static/media/foto_perfil.b99551abdadb0c80463b.jpg",
+    "static/media/dibujo_fondo-der.jpg": "/tp-portfolio/static/media/dibujo_fondo-der.fb342b895412e7375cec.jpg",
+    "static/media/dibujo_fondo-izq.jpg": "/tp-portfolio/static/media/dibujo_fondo-izq.530629c71a017a4e8aec.jpg",
     "index.html": "/tp-portfolio/index.html",
-    "main.291e9858.css.map": "/tp-portfolio/static/css/main.291e9858.css.map",
-    "main.6e8e7858.js.map": "/tp-portfolio/static/js/main.6e8e7858.js.map"
+    "main.07a95df5.css.map": "/tp-portfolio/static/css/main.07a95df5.css.map",
+    "main.538fa7f7.js.map": "/tp-portfolio/static/js/main.538fa7f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.291e9858.css",
-    "static/js/main.6e8e7858.js"
+    "static/css/main.07a95df5.css",
+    "static/js/main.538fa7f7.js"
   ]
 }
