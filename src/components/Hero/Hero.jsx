@@ -26,28 +26,28 @@ const Hero = () => {
 
       {/* Tarjetas de la seccion hero */}
       <div className="hero-tarjetas">
-        <div className="tarjeta">
+        <div className="tarjeta tarjeta-hero">
           <i className="bi bi-award"></i>
           <div className="tarjeta-texto">
             <p>02</p>
             <p>Cursos Realizados</p>
           </div>
         </div>
-        <div className="tarjeta">
+        <div className="tarjeta tarjeta-hero">
           <i class="bi bi-filetype-html"></i>
           <div className="tarjeta-texto">
             <p>Experiencia</p>
             <p>HTML y CSS</p>
           </div>
         </div>
-        <div className="tarjeta">
+        <div className="tarjeta tarjeta-hero">
           <i className="bi bi-award-fill"></i>
           <div className="tarjeta-texto">
             <p>6 Meses+</p>
             <p>Experiencia</p>
           </div>
         </div>
-        <div className="tarjeta">
+        <div className="tarjeta tarjeta-hero">
           <i className="bi bi-trophy"></i>
           <div className="tarjeta-texto">
             <p>10+</p>

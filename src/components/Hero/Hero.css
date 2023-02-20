@@ -67,6 +67,11 @@
   width: 250px;
 }
 
+.tarjeta-hero p {
+  font-size: 1.8rem !important;
+  font-weight: 600 !important;
+}
+
 .tarjeta i {
   background-color: #0078ac;
   border-radius: 50%;
